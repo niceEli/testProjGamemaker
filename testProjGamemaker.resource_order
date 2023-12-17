@@ -18,8 +18,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sprite2","order":2,"path":"sprites/sprite2/sprite2.yy",},
+    {"name":"enemy","order":2,"path":"sprites/enemy/enemy.yy",},
     {"name":"tileset2","order":3,"path":"tilesets/tileset2/tileset2.yy",},
     {"name":"TileSet1","order":1,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"Sprite3","order":1,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Enemy","order":1,"path":"objects/Enemy/Enemy.yy",},
   ],
 }

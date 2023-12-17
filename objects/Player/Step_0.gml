@@ -77,9 +77,9 @@ if (l485F589F_0)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3A6F445F
-/// @DnDArgument : "code" "/// @description Super Skibidi$(13_10)// You can write your code in this editor$(13_10)$(13_10)if (vx <= -maxSpeed){$(13_10)	vx = -maxSpeed;$(13_10)}$(13_10)if (vx >= maxSpeed){$(13_10)	vx = maxSpeed;$(13_10)}$(13_10)if (vy <= -maxSpeed){$(13_10)	vy = -maxSpeed;$(13_10)}$(13_10)if (vy >= maxSpeed){$(13_10)	vy = maxSpeed;$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "/// @description Super Skibidi$(13_10)$(13_10)$(13_10)if (vx <= -maxSpeed){$(13_10)	vx = -maxSpeed;$(13_10)}$(13_10)if (vx >= maxSpeed){$(13_10)	vx = maxSpeed;$(13_10)}$(13_10)if (vy <= -maxSpeed){$(13_10)	vy = -maxSpeed;$(13_10)}$(13_10)if (vy >= maxSpeed){$(13_10)	vy = maxSpeed;$(13_10)}$(13_10)"
 /// @description Super Skibidi
-// You can write your code in this editor
+
 
 if (vx <= -maxSpeed){
 	vx = -maxSpeed;
