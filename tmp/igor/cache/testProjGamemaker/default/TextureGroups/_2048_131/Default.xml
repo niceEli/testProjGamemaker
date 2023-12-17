@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureGroup>
+  <texture scale="1" mipsToGenerate="0" texwidth="512" texheight="1024">default_0.bz2</texture>
+  <tpe x="4" y="4" tpage="default_0">TileSet1_output_tileset.tpe</tpe>
+  <tpe x="4" y="512" tpage="default_0">tileset2_output_tileset.tpe</tpe>
+  <tpe x="2" y="698" tpage="default_0">spriteSheet16_b7af756d-c250-49b3-a082-10940da39ef1.tpe</tpe>
+  <tpe x="2" y="814" tpage="default_0">sprite2_7073976e-1fec-4d27-8b34-1986d9949311.tpe</tpe>
+  <tpe x="150" y="814" tpage="default_0">Sprite3_f6c006dd-c006-46ee-b039-b46c12881895.tpe</tpe>
+</TextureGroup>
