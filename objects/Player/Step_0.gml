@@ -96,21 +96,6 @@ if (vy >= maxSpeed){
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
-/// @DnDHash : 329941EB
-/// @DnDArgument : "key" "vk_escape"
-var l329941EB_0;
-l329941EB_0 = keyboard_check_pressed(vk_escape);
-if (l329941EB_0)
-{
-	/// @DnDAction : YoYo Games.Game.End_Game
-	/// @DnDVersion : 1
-	/// @DnDHash : 433A5181
-	/// @DnDParent : 329941EB
-	game_end();
-}
-
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
-/// @DnDVersion : 1
 /// @DnDHash : 25A2E641
 /// @DnDArgument : "key" "ord("R")"
 var l25A2E641_0;
@@ -122,4 +107,21 @@ if (l25A2E641_0)
 	/// @DnDHash : 5558DF65
 	/// @DnDParent : 25A2E641
 	room_restart();
+}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 4C9412D3
+/// @DnDArgument : "key" "vk_escape"
+var l4C9412D3_0;
+l4C9412D3_0 = keyboard_check_pressed(vk_escape);
+if (l4C9412D3_0)
+{
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 3B35BD1E
+	/// @DnDParent : 4C9412D3
+	/// @DnDArgument : "room" "MainMenu"
+	/// @DnDSaveInfo : "room" "MainMenu"
+	room_goto(MainMenu);
 }

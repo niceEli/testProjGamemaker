@@ -35,8 +35,13 @@
   },
   "resources": [
     {"id":{"name":"spriteSheet16","path":"sprites/spriteSheet16/spriteSheet16.yy",},},
+    {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"sprite2","path":"sprites/sprite2/sprite2.yy",},},
+    {"id":{"name":"playButton","path":"objects/playButton/playButton.yy",},},
     {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
+    {"id":{"name":"stopButton","path":"objects/stopButton/stopButton.yy",},},
+    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"tileset2","path":"tilesets/tileset2/tileset2.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
@@ -45,6 +50,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType": "game",
